@@ -1,0 +1,35 @@
+*{
+    background-color: #5d5a5a;
+}
+
+.number-btn, .sign-btn {
+
+    text-align: center;
+    cursor: pointer;
+    height: 40px;
+    width: 100%;
+}
+.sign-btn:hover{
+    background-color: #f5b98e;
+}
+.number-btn:hover{
+    background-color: #818080;
+}
+
+.number-btn {
+    color: white;
+    background-color: #0c0c0c;
+}
+
+.sign-btn {
+    color: black;
+    background-color: #ff8000;
+}
+
+
+.calculator-buttons {
+    background-color: #3a3939;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto ;
+    grid-template-columns: auto auto auto auto;
+}
